@@ -43,6 +43,7 @@ P2R consistently outperforms its VLM baselines on both high-resolution fine-grai
 
 ## 🎉 News
 
+- **[2025/06]** We release our [code](https://github.com/ZJU-REAL/Perceive-to-Reason), [models](https://huggingface.co/hongxingli/P2R-4B), and [dataset](https://huggingface.co/datasets/hongxingli/P2R-10k).
 
 ## 📖 Usage
 
@@ -60,7 +61,18 @@ bash install.sh
 
 ### Dataset Installation
 
+**Training Data**
+
 Download the training dataset from [P2R-10k](https://huggingface.co/datasets/hongxingli/SpatialLadder-26k) and place it under your data directory.
+
+**Evaluation Data**
+
+Download the following datasets and place them under your data directory.
+
+- [V-Star Bench](https://huggingface.co/datasets/lmms-lab/vstar-bench)
+- [HR-Bench](https://huggingface.co/datasets/DreamMr/HR-Bench)
+- [MME-RealWorld](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld-Lmms-eval)
+- [MME-RealWorld-Lite](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld-lite-lmms-eval)
 
 ### Training
 
@@ -68,7 +80,7 @@ PRA-GRPO alternates between two stages. Each stage keeps the other role **frozen
 
 > **Note:** Before training, configure the service IP addresses and ports in the training scripts (`REASONER_HOST`, `PERCEIVER_HOST`, `VERIFIER_HOST` and their corresponding `_PORT` variables). Ensure each service uses a **different port** to avoid conflicts.
 
-#### Stage 1: Train Perceiver
+**Stage 1: Train Perceiver**
 
 Start the frozen reasoner and verifier services:
 
@@ -83,7 +95,7 @@ Then launch perceiver training:
 bash example/qwen3_vl_4b_p2r/run_pra_grpo_perceiver.sh
 ```
 
-#### Stage 2: Train Reasoner
+**Stage 2: Train Reasoner**
 
 Start the trained perceiver and verifier services:
 
@@ -98,7 +110,7 @@ Then launch reasoner training:
 bash example/qwen3_vl_4b_p2r/run_pra_grpo_reasoner.sh
 ```
 
-## Evaluation
+### Evaluation
 
 Edit `evaluation/run_eval_batch.sh` to specify your model, mode, and task:
 
