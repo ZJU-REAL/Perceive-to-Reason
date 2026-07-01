@@ -43,7 +43,7 @@ P2R consistently outperforms its VLM baselines on both high-resolution fine-grai
 
 ## 🎉 News
 
-- **[2025/06]** We release our [code](https://github.com/ZJU-REAL/Perceive-to-Reason), [models](https://huggingface.co/hongxingli/P2R-4B), and [dataset](https://huggingface.co/datasets/hongxingli/P2R-10k).
+- **[2026/07/01]** We release our [code](https://github.com/ZJU-REAL/Perceive-to-Reason), [models](https://huggingface.co/hongxingli/P2R-4B), and [dataset](https://huggingface.co/datasets/hongxingli/P2R-10k).
 
 ## 📖 Usage
 
