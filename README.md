@@ -4,7 +4,7 @@ Fine-Grained Visual Reasoning
 </h1>
 <div align='center' style="font-size:18px;">
 <p>
-    <a href="" target="_blank">
+    <a href="https://arxiv.org/pdf/2607.01191v1" target="_blank">
         <img alt="arXiv" src="https://img.shields.io/badge/arXiv-Perceive--to--Reason-red?logo=arxiv" height="20" />
     </a>
     <a href="https://huggingface.co/hongxingli/P2R-4B" target="_blank">
@@ -43,6 +43,7 @@ P2R consistently outperforms its VLM baselines on both high-resolution fine-grai
 
 ## 🎉 News
 
+- **[2026/07/02]** We release our [paper](https://arxiv.org/pdf/2607.01191v1).
 - **[2026/07/01]** We release our [code](https://github.com/ZJU-REAL/Perceive-to-Reason), [models](https://huggingface.co/hongxingli/P2R-4B), and [dataset](https://huggingface.co/datasets/hongxingli/P2R-10k).
 
 ## 📖 Usage
