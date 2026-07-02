@@ -137,5 +137,13 @@ This project builds on [veRL](https://github.com/verl-project/verl). Training da
 If you find Perceive-to-Reason useful, please consider citing our work:
 
 ```bibtex
-
+@misc{li2026perceivetoreasondecouplingperceptionreasoning,
+      title={Perceive-to-Reason: Decoupling Perception and Reasoning for Fine-Grained Visual Reasoning}, 
+      author={Hongxing Li and Xiufeng Huang and Dingming Li and Wenjing Jiang and Zixuan Wang and Haolei Xu and Hanrong Zhang and Haiwen Hong and Longtao Huang and Hui Xue and Weiming Lu and Jun Xiao and Yueting Zhuang and Yongliang Shen},
+      year={2026},
+      eprint={2607.01191},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2607.01191}, 
+}
 ```
