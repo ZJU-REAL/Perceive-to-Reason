@@ -12,6 +12,8 @@ Fine-Grained Visual Reasoning
     </a>
     <a href="https://huggingface.co/datasets/hongxingli/P2R-10k" target="_blank">
         <img alt="Data" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Data-P2R--10k-ffc107?color=ffc107&logoColor=white" height="20" />
+    <a href="https://huggingface.co/spaces/hongxingli/perceive-to-reason" target="_blank">
+        <img alt="Demo" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Demo-P2R-ffc107?color=ffc107&logoColor=white" height="20" />
     </a>
   </p>
 </div>
@@ -42,7 +44,7 @@ P2R consistently outperforms its VLM baselines on both high-resolution fine-grai
 </p>
 
 ## 🎉 News
-
+- **[2026/07/06]** Try out our interactive demo on [Hugging Face Spaces](https://huggingface.co/spaces/hongxingli/perceive-to-reason)! Thanks to the open-source team at Hugging Face for building and hosting the demo!
 - **[2026/07/02]** We release our [paper](https://arxiv.org/pdf/2607.01191v1).
 - **[2026/07/01]** We release our [code](https://github.com/ZJU-REAL/Perceive-to-Reason), [models](https://huggingface.co/hongxingli/P2R-4B), and [dataset](https://huggingface.co/datasets/hongxingli/P2R-10k).
 
