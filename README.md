@@ -66,7 +66,7 @@ bash install.sh
 
 **Training Data**
 
-Download the training dataset from [P2R-10k](https://huggingface.co/datasets/hongxingli/SpatialLadder-26k) and place it under your data directory.
+Download the training dataset from [P2R-10k](https://huggingface.co/datasets/hongxingli/P2R-10k) and place it under your data directory.
 
 **Evaluation Data**
 
